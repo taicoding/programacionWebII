@@ -19,7 +19,7 @@ console.log(colores);
 console.log(colores.length);
 console.log(colores[0]);
 for (let i = 0; i < colores.length; i++) {
-    console.log("Elemento: "+ colores[i]+", indice:" + i);
+    console.log("Elemento: " + colores[i] + ", indice:" + i);
 }
 colores.push("amarillo");
 console.log(colores);
@@ -37,7 +37,7 @@ colores.push(1);
 colores.push(2);
 colores.push(3);
 console.log(colores);
-colores.push([4,5,6]);
+colores.push([4, 5, 6]);
 console.log(colores);
 var elemento = colores.pop();
 console.log(elemento);
