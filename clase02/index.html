@@ -188,7 +188,25 @@
             </section>
         </div>
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            // alert("TEST");
+            $(".primary-button").click(function () {
+                alert("TEST");
+            })
+            $.ajax({
+                url: "https://jsonplaceholder.typicode.com/users",
+                type: "GET",
+                success: function (response) {
+                    console.log(response);
+                }
+            });
+            $(window).resize(function () {
+                alert("resize");
+            })
+        })
+    </script>
 </body>
 
 </html>
