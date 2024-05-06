@@ -1,5 +1,3 @@
-Aquí tienes el texto formateado en Markdown:
-
 # PROGRAMACIÓN WEB II - INF 122
 
 ## 1. Repaso de HTML 5, CSS3, JS
